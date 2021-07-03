@@ -1,0 +1,15 @@
+.contact-animate{
+    li{
+        a{
+            &:hover{
+                font-weight: bold;
+            }
+            img{
+                transition: all .2s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
